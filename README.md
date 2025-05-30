@@ -52,3 +52,6 @@ python main.py
 ![page](images/page1.png "Judul opsional")
 ![page](images/page2.png "Judul opsional")
 ![extract](images/extract.png "Judul opsional")
+
+### 2. Transform
+![page](images/transform.png "Judul opsional")
