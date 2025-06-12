@@ -2,7 +2,7 @@ import pandas as pd
 
 from utils.scraper import scrape_books
 from utils.transform import transform_data, transform_to_DataFrame
-
+from utils.load import save_to_csv, save_to_mysql
 
 def main():
     BASE_URL = "https://books.toscrape.com/catalogue/page-{}.html"
@@ -17,7 +17,10 @@ def main():
     df_clean = transform_data(df_raw)
     print("Berhasil Transformasi Data")
     print(df_clean)
-    
+    print("======================================")
+    print("Menyimpan Data........................")
+    save_to_csv(df_clean)
+    save_to_mysql(df_clean, table_name='buku_data')
     
 if __name__ == "__main__":
     main()
