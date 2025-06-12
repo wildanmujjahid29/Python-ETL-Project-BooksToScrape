@@ -13,15 +13,6 @@ Proyek ini adalah bagian dari latihan ETL (Extract, Transform, Load) sederhana b
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
-
-- Python 3.9+
-- `requests`
-- `beautifulsoup4`
-- `pandas`
-
----
-
 ## 🧪 Cara Menjalankan Proyek (Extract Phase)
 
 ### 1. Clone repositori
@@ -55,3 +46,7 @@ python main.py
 
 ### 2. Transform
 ![page](images/transform.png "Judul opsional")
+
+### 3. Load
+![page](images/load1.png "Judul opsional")
+![page](images/load2.png "Judul opsional")
